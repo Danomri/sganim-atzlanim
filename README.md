@@ -62,21 +62,34 @@ In active combat reserves, managing hundreds of soldiers, complex logistics, wea
 
 ## 📸 Sneak Peek
 
-> **Note to Recruiters:** You can explore the platform's UI without military credentials using the built-in *Demo Mode*.
+> **Note to Recruiters:** You can explore the platform's UI without military credentials using the built-in **Demo Mode**.
 
 <div align="center">
-  <img src="(https://github.com/Danomri/sganim-atzlanim/blob/main/assets/dashboard.png?raw=true)/800x400.png?text=Dashboard+Screenshot" alt="Dashboard Screenshot" width="80%" />
+  <img src="https://github.com/Danomri/sganim-atzlanim/blob/main/assets/dashboard.png?raw=true" alt="Dashboard Screenshot" width="80%" />
   <br/>
   <i>Command Dashboard - Providing a bird's-eye view of battalion readiness.</i>
 </div>
 
 ---
 
-## 🚀 Getting Started (Local Development)
+## 🚀 Live Demo & Access
 
-To run this project locally, you will need Node.js and Python installed.
+The application is deployed and ready for inspection. You can interact with the full feature set using the Guest Access:
 
-### 1. Clone the repository
-```bash
-git clone [https://github.com/danomri/sganim-atzlanim.git](https://github.com/danomri/sganim-atzlanim.git)
-cd sganim-atzlanim
+* **Live Link:** [http://sganim-atzlanim.com](http://sganim-atzlanim.com)
+* **Access Method:** Click the **"Demo Mode"** button on the login screen to enter as a Battalion Commander.
+
+---
+
+## 🏗️ System Architecture
+
+This project follows a modern Full-Stack architecture designed for reliability and ease of deployment:
+
+
+
+1. **Frontend:** Developed with **React** and **Tailwind CSS** for a responsive, high-performance user interface.
+2. **Backend:** A **Flask (Python)** RESTful API handles authentication (JWT), logic, and data processing.
+3. **Storage:** A dual-layer approach using **SQLite** for local session data and **Google Sheets API** for real-time, collaborative unit data management.
+4. **Deployment:** Hosted on **AWS EC2** using **Nginx** as a reverse proxy.
+
+> **Privacy Note:** The source code is maintained in a private repository to protect proprietary logistics logic. I am happy to discuss the codebase and technical challenges in detail during an interview.
