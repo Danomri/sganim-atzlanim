@@ -65,7 +65,8 @@ In active combat reserves, managing hundreds of soldiers, complex logistics, wea
 > **Note to Recruiters:** You can explore the platform's UI without military credentials using the built-in *Demo Mode*.
 
 <div align="center">
-  <img src="assets/dashboard.png/800x400.png?text=Dashboard+Screenshot" alt="Dashboard Screenshot" width="80%" />
+  <img src="(https://github.com/Danomri/sganim-atzlanim/blob/main/assets/dashboard.png?raw=true)<img width="2998" height="1702" alt="image" src="https://github.com/user-attachments/assets/c4b7414a-984e-49a2-badf-3888bd9e588c" />
+/800x400.png?text=Dashboard+Screenshot" alt="Dashboard Screenshot" width="80%" />
   <br/>
   <i>Command Dashboard - Providing a bird's-eye view of battalion readiness.</i>
 </div>
