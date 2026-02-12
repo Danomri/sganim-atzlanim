@@ -81,15 +81,4 @@ The application is deployed and ready for inspection. You can interact with the 
 
 ---
 
-## 🏗️ System Architecture
-
-This project follows a modern Full-Stack architecture designed for reliability and ease of deployment:
-
-
-
-1. **Frontend:** Developed with **React** and **Tailwind CSS** for a responsive, high-performance user interface.
-2. **Backend:** A **Flask (Python)** RESTful API handles authentication (JWT), logic, and data processing.
-3. **Storage:** A dual-layer approach using **SQLite** for local session data and **Google Sheets API** for real-time, collaborative unit data management.
-4. **Deployment:** Hosted on **AWS EC2** using **Nginx** as a reverse proxy.
-
 > **Privacy Note:** The source code is maintained in a private repository to protect proprietary logistics logic. I am happy to discuss the codebase and technical challenges in detail during an interview.
